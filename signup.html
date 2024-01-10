@@ -12,17 +12,17 @@
 <form>
 
   <label for="user-id">아이디</label>
-  <input type="text" name="id" id="user-id">
+  <input type="text" name="id" id="user-id" required>
 
   <br>
 
   <label for="user-email">이메일</label>
-  <input type="email" name="email" id="user-email">
+  <input type="email" name="email" id="user-email" required>
 
   <br>
 
   <label for="user-pw">비밀번호</label>
-  <input type="password" name="pw" id="user-pw">
+  <input type="password" name="pw" id="user-pw" required>
 
   <br>
 
@@ -33,7 +33,7 @@
     <legend>성별</legend>
 
     <uol>
-      <li><input type="radio" name="gender" value="male" id="male">
+      <li><input type="radio" name="gender" value="male" id="male" required>
         <label for="male">남성</label></li>
       <li><input type="radio" name="gender" value="females" id="female">
         <label for="female">여성</label></li>
@@ -47,23 +47,23 @@
     <legend>사용기술</legend>
 
     <uol>
-      <li><input type="checkbox" name="html" id="html">
+      <li><input type="checkbox" name="skill" value="html" id="html">
         <label for="html">HTML</label></li>
-      <li><input type="checkbox" name="css" id="css">
+      <li><input type="checkbox" name="skill" value="css" id="css">
         <label for="css">CSS</label></li>
-      <li><input type="checkbox" name="js" id="js">
+      <li><input type="checkbox" name="skill" value="js" id="js">
         <label for="js">JavaScript</label></li>
-      <li><input type="checkbox" name="python" id="python">
+      <li><input type="checkbox" name="skill" value="python" id="python">
         <label for="python">Python</label></li>
-      <li><input type="checkbox" name="django" id="django">
+      <li><input type="checkbox" name="skill" value="django" id="django">
         <label for="django">Django</label></li>
-      <li><input type="checkbox" name="GitHub" id="GitHub">
+      <li><input type="checkbox" name="skill" value="GitHub" id="GitHub">
         <label for="django">GitHub</label></li>
-      <li><input type="checkbox" name="PostgreSQL" id="PostgreSQL">
+      <li><input type="checkbox" name="skill" value="PostgreSQL" id="PostgreSQL">
         <label for="django">PostgreSQL</label></li>
     </uol>
 
-    <button type="button">회원가입</button>
+    <button type="submit">회원가입</button>
 
   </fieldset>
 
